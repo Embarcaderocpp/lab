@@ -14,4 +14,4 @@ else:
         else:
             result = f"min x = {x_4}"
 
-print(result)
+print(f"Результат {result}")
