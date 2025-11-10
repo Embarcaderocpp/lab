@@ -10,12 +10,11 @@ def f(x):
 x_0 = int(input("x_0: "))
 h_x = float(input("h_x: "))
 x_n = int(input("x_n: "))
- 
-x = x_0
 
-while x_0 <= x_n:
-    x_0 += h_x
+
+while x_0 <= x_n + h_x / 3:
     y = f(x_0)
+    x_0 += h_x
     if y is None:
         continue
     else:

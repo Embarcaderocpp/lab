@@ -4,10 +4,12 @@ x = 0.5
 s = 0
 
 def f_a(n):
+    result = 0
     if x <=0.5:
-        return 2*n
+        result = 2*n
     elif x>0.5:
-        return n/2
+        result = n/2
+    return result
         
 
 def f_y(s, n):
@@ -17,4 +19,5 @@ def f_y(s, n):
 
 for n in range(0, 21):
     s += f_a(n) * x**n
-    print(f_y(s, n))
+    out = f_y(s, n)
+    print(out)

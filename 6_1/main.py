@@ -1,10 +1,12 @@
 import sys
 
 def sequence(n):
+    result = 0
     if n % 2 == 0:
-        return n**2 + 1
+        result =  n**2 + 1
     else:
-        return n**2 + 2 * n
+        result = n**2 + 2 * n
+    return result
 
 count = 15
 
