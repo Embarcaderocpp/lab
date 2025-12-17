@@ -34,6 +34,6 @@ else:
                 summ += term 
             y = summ
         
-        # Вывод таблицы
+        
         print(f"{x:.2f}\t {y:.4f}")
         x += h_x
